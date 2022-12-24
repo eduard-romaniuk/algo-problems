@@ -1,8 +1,8 @@
 import tests
 
 
-# Time O(n) | although time complexity type the same we save a bit of time be traversing array once
-# Space O(1) | 1 because by task constraints we don't count output array space
+# Time O(n)
+# Space O(1)
 def product_array(array):
     result = [1] * len(array)
     suffix = 1
